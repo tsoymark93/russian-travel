@@ -1,0 +1,34 @@
+.place {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+@media screen and (min-width: 768px) {
+    .place:first-child {
+        padding-top: 80px;
+    }
+    .place {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 48px 28px;
+        padding-top: 73px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .place:first-child {
+        padding-top: 92px;
+    }
+    .place {
+        gap: 48px 32px;
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place {
+        gap: 48px 40px;
+    }
+}
