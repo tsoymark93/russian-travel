@@ -1,10 +1,11 @@
 .page {
     background-color: #2A2C2F;
-
     margin: 0 auto;
     padding: 0;
     min-width: 320px;
     max-width: 768px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   @media (min-width: 768px) {
